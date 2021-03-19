@@ -46,8 +46,7 @@
 
 /* contenitore */
 #container {
-    width: 80%;
-    
+    width: 75%;
     margin: auto;
 }
 
@@ -94,7 +93,7 @@ header > #div_header_secondario {
 
 #testo_banner{
     padding: 300px 0 75px 50px;
-    width: 45%;
+    width: 48%;
 }
 
 .intestazione_in_foto{
@@ -157,7 +156,12 @@ main > section > .sezione_centrale {
 .sfondo_trasperente {
     height: 100%;
     width: 100%;
+    /* border-bottom:5px solid #cccccc ; */
     background-color:rgba(0,0,0,0.2);
+}
+
+ .sezione_centrale > .immagine_centrale >.bordo_centrale {
+     border-bottom:5px solid #cccccc ;
 }
 
 .immagine_aside_sinistra {
@@ -175,8 +179,8 @@ main > section > .sezione_centrale {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 80% 180%;
-    border-bottom: 2px solid lightgrey;
     margin: auto;
+    
     background-image: url(../img/banner-2.jpg);
 }
 
@@ -199,7 +203,6 @@ main > section > .sezione_centrale {
 footer > .footer {
     padding: 20px 0 0 0 ;
     height: 80px;
-    
     text-align: center;
 }
 
